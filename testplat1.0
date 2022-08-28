@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T09:58:22.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="kUfxLlvZ4TboA6-HqhAn" version="20.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-28T08:09:09.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="608Y6-oYu7thoUF__-ow" version="20.2.7" type="github">
   <diagram id="-f0iZcRcKDNuHCi6U3b7" name="第 1 页">
-    <mxGraphModel dx="1021" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,34 +50,34 @@
           <mxGeometry x="364.5" y="475" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="EVNwmJqJMlsHGpwFezFb-52" value="质量分析报告" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#9933FF;" parent="1" vertex="1">
-          <mxGeometry x="980" y="375" width="100" height="35" as="geometry" />
+          <mxGeometry x="940" y="385" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="EVNwmJqJMlsHGpwFezFb-53" value="接口性能监控" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#9933FF;" parent="1" vertex="1">
-          <mxGeometry x="930" y="275" width="100" height="35" as="geometry" />
+          <mxGeometry x="930" y="290" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="EVNwmJqJMlsHGpwFezFb-54" value="接口性能测试" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#9933FF;" parent="1" vertex="1">
-          <mxGeometry x="840" y="230" width="100" height="35" as="geometry" />
+          <mxGeometry x="820" y="230" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="EVNwmJqJMlsHGpwFezFb-55" value="UI自动化" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#9933FF;" parent="1" vertex="1">
-          <mxGeometry x="930" y="170" width="100" height="35" as="geometry" />
+          <mxGeometry x="920" y="170" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="EVNwmJqJMlsHGpwFezFb-56" value="场景跟踪调用链" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry x="1290" y="288" width="110" height="62" as="geometry" />
         </mxCell>
         <mxCell id="EVNwmJqJMlsHGpwFezFb-57" value="接口拓扑关系" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#9933FF;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="310" width="120" height="55" as="geometry" />
+          <mxGeometry x="1090" y="325" width="120" height="55" as="geometry" />
         </mxCell>
         <mxCell id="EVNwmJqJMlsHGpwFezFb-58" value="场景编排" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#9933FF;" parent="1" vertex="1">
-          <mxGeometry x="1210" y="230" width="100" height="35" as="geometry" />
+          <mxGeometry x="1190" y="240.5" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="EVNwmJqJMlsHGpwFezFb-59" value="用例关联需求" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry x="830" y="340" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="EVNwmJqJMlsHGpwFezFb-60" value="定义规则生成用例" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#9933FF;" parent="1" vertex="1">
-          <mxGeometry x="1100" y="162.5" width="140" height="50" as="geometry" />
+          <mxGeometry x="1150" y="120" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EVNwmJqJMlsHGpwFezFb-61" value="数据驱动" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#9933FF;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="100" width="100" height="35" as="geometry" />
+        <mxCell id="EVNwmJqJMlsHGpwFezFb-61" value="接口定义" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#9933FF;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="70" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="EVNwmJqJMlsHGpwFezFb-64" value="降本增效&lt;br&gt;及时提供质量反馈" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;strokeColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry x="690" y="80" width="150" height="75" as="geometry" />
@@ -85,8 +85,14 @@
         <mxCell id="EVNwmJqJMlsHGpwFezFb-65" value="接口自动化环境" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#CCCCFF;shape=mxgraph.archimate3.application;appType=goal;archiType=oct;strokeColor=#9933FF;" parent="1" vertex="1">
           <mxGeometry x="137.5" y="390" width="150" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="OSLQ2-LGSh-YZBkTtS2I-1" value="接口日志" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#9933FF;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="250" width="100" height="35" as="geometry" />
+        <mxCell id="OSLQ2-LGSh-YZBkTtS2I-1" value="接口日志" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#9933FF;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="240.5" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="CpHWBLysHhE496lXqR_X-1" value="数据驱动" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#9933FF;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="185" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="CpHWBLysHhE496lXqR_X-3" value="定时任务" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#AFFFAF;shape=mxgraph.archimate3.application;appType=func;archiType=rounded;strokeColor=#9933FF;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="390" width="100" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
