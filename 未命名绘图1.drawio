@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T07:49:03.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="z-5eXKbxlR2H6Oi8IVvF" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T07:57:13.369Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="C5wBCGcayHwiwudGCtl_" version="20.2.8" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="739" dy="1472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -37,7 +37,7 @@
         <mxCell id="WAkKVUCmujlHPBsuKdfV-17" value="apiCase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="120" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WAkKVUCmujlHPBsuKdfV-18" value="api定义需要描述：(所属项目、所属模块ID、所属模块名、&lt;br&gt;名字、请求方法、请求协议、请求路径、请求、返回、创建用户、创建时间、更新时间、用例数 主码：id)&lt;br&gt;测试用例需要描述：（所属项目、所属模块ID、所属模块名、&lt;br&gt;名字、请求方法、请求协议、请求路径、请求、创建用户、创建时间、更新时间、用例数 主码：id 外码：apiID）&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;关于api：api可以执行，&lt;br&gt;&lt;br&gt;一个api定义可以生成多个测试用例，一个测试用例属于1个api定义" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WAkKVUCmujlHPBsuKdfV-18" value="api定义需要描述：(所属项目、所属模块ID、所属模块名、&lt;br&gt;名字、请求方法、请求协议、请求路径、请求、返回、创建用户、创建时间、更新时间、用例数 主码：id)&lt;br&gt;测试用例需要描述：（所属项目、所属模块ID、所属模块名、&lt;br&gt;名字、请求方法、请求协议、请求路径、请求、创建用户、创建时间、更新时间、用例数 主码：id 外码：apiID）&lt;br&gt;&lt;br&gt;关于api：1、api可以执行&lt;br&gt;2、修改api定义的参数，保存为不同的apiCase&lt;br&gt;3、apiCase可以单个执行，可以批量执行&lt;br&gt;&lt;br&gt;一个api定义可以生成多个测试用例，一个测试用例属于1个api定义" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="220" width="530" height="240" as="geometry" />
         </mxCell>
         <mxCell id="WAkKVUCmujlHPBsuKdfV-19" value="生成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -102,10 +102,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WAkKVUCmujlHPBsuKdfV-34" value="api执行记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="180" width="80" height="30" as="geometry" />
+          <mxGeometry x="50" y="180" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WAkKVUCmujlHPBsuKdfV-35" value="apiCase执行记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="445" y="180" width="110" height="30" as="geometry" />
+          <mxGeometry x="630" y="180" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WAkKVUCmujlHPBsuKdfV-36" value="场景" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="10" width="120" height="30" as="geometry" />
@@ -144,6 +144,36 @@
           <mxGeometry x="680" y="75" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WAkKVUCmujlHPBsuKdfV-44" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WAkKVUCmujlHPBsuKdfV-40" target="WAkKVUCmujlHPBsuKdfV-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="200" as="sourcePoint" />
+            <mxPoint x="430" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAkKVUCmujlHPBsuKdfV-45" value="生成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="150" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WAkKVUCmujlHPBsuKdfV-46" value="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WAkKVUCmujlHPBsuKdfV-45" target="WAkKVUCmujlHPBsuKdfV-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="150" as="sourcePoint" />
+            <mxPoint x="430" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAkKVUCmujlHPBsuKdfV-48" value="n" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WAkKVUCmujlHPBsuKdfV-34" target="WAkKVUCmujlHPBsuKdfV-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="200" as="sourcePoint" />
+            <mxPoint x="430" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAkKVUCmujlHPBsuKdfV-49" value="生成" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WAkKVUCmujlHPBsuKdfV-54" value="1" style="endArrow=none;html=1;rounded=0;curved=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="WAkKVUCmujlHPBsuKdfV-17" target="WAkKVUCmujlHPBsuKdfV-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="200" as="sourcePoint" />
+            <mxPoint x="430" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WAkKVUCmujlHPBsuKdfV-55" value="n" style="endArrow=none;html=1;rounded=0;curved=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="WAkKVUCmujlHPBsuKdfV-35" target="WAkKVUCmujlHPBsuKdfV-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="200" as="sourcePoint" />
             <mxPoint x="430" y="150" as="targetPoint" />
