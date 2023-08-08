@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T09:34:22.660Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="CdrTqIVwQOp5vTpo1lh5" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T09:47:42.330Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="8VGVnV4EB_LyspuJWfJU" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="880" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,11 +48,17 @@
         <mxCell id="ZPP5SdGMfIlQ1nmrVlfU-18" value="创建事件" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="150" y="60" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ZPP5SdGMfIlQ1nmrVlfU-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="ZPP5SdGMfIlQ1nmrVlfU-25" target="ZPP5SdGMfIlQ1nmrVlfU-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ZPP5SdGMfIlQ1nmrVlfU-25" value="推送数据触发告警" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="150" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZPP5SdGMfIlQ1nmrVlfU-27" value="查看告警事件产生" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="140" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="140" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPP5SdGMfIlQ1nmrVlfU-30" value="&lt;b&gt;先检查告警事件的产生&lt;/b&gt;&lt;br&gt;告警产生后有三种类型的执行动作：&lt;br&gt;1、邮件钉钉通知；（执行后查看是否收到邮件，钉钉通知）&lt;br&gt;2、转发数据；（检查流转日志中是否包含对应内容）&lt;br&gt;3、下发指令到设备；（检查设备是否执行了相应的指令）" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="238.5" y="370" width="351" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
