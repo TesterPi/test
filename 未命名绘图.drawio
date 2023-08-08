@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T09:47:42.330Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="8VGVnV4EB_LyspuJWfJU" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T09:55:35.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="bDQ8eZ7Uff2a06BMYvIQ" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="880" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,6 +59,24 @@
         </mxCell>
         <mxCell id="ZPP5SdGMfIlQ1nmrVlfU-30" value="&lt;b&gt;先检查告警事件的产生&lt;/b&gt;&lt;br&gt;告警产生后有三种类型的执行动作：&lt;br&gt;1、邮件钉钉通知；（执行后查看是否收到邮件，钉钉通知）&lt;br&gt;2、转发数据；（检查流转日志中是否包含对应内容）&lt;br&gt;3、下发指令到设备；（检查设备是否执行了相应的指令）" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="238.5" y="370" width="351" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPP5SdGMfIlQ1nmrVlfU-37" value="http客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="730" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPP5SdGMfIlQ1nmrVlfU-38" value="http服务端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="870" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPP5SdGMfIlQ1nmrVlfU-39" value="mqtt客户端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="730" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPP5SdGMfIlQ1nmrVlfU-40" value="mqtt服务端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="870" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPP5SdGMfIlQ1nmrVlfU-41" value="UDP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="730" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZPP5SdGMfIlQ1nmrVlfU-42" value="TCP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="870" y="200" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
